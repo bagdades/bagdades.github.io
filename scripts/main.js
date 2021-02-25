@@ -2,11 +2,11 @@ var myImage = document.querySelector('img')
 
 myImage.onclick = function() {
 	var mySrc = myImage.getAttribute('src');
-	if (mySrc === '../image/esp07_pinout.jpg') {
-		myImage.setAttribute('src', '../image/esp07_pinout1.jpg');
+	if (mySrc === 'image/esp07_pinout.jpg') {
+		myImage.setAttribute('src', 'image/esp07_pinout1.jpg');
 	}
 	else{
-		myImage.setAttribute('src', '../image/esp07_pinout.jpg');
+		myImage.setAttribute('src', 'image/esp07_pinout.jpg');
 	}
 }
 var myButton = document.querySelector('button');
